@@ -1,5 +1,5 @@
 # RustServer
-Rust-thread server from tutorial [docs.rust-lang.org/book]
+Rust-thread server from tutorial [docs.rust-lang.org/book](https://doc.rust-lang.ru/book/ch20-00-final-project-a-web-server.html)
 
 ## Wiki:<br>
 1. Clone this repository:``` git clone https://github.com/a2p1k02/RustServer.git ```
