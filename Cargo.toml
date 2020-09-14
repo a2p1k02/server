@@ -1,0 +1,7 @@
+[package]
+name = "Server"
+version = "1.2.1"
+authors = ["a2p1k02 <fl4ckyp@gmail.com>"]
+edition = "2018"
+
+[dependencies]
