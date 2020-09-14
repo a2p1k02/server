@@ -42,7 +42,5 @@ fn handle_connection(mut stream: TcpStream) {
     let response = format!("{}{}", status_line, contents);
 
     stream.write(response.as_bytes()).unwrap();
-    stream.flush().unwrap();
-
-    
+    stream.flush().unwrap();    
 }
