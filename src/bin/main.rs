@@ -1,4 +1,4 @@
-use Server::ThreadPool;
+use server::ThreadPool;
 use std::fs;
 use std::io::prelude::*;
 use std::net::TcpListener;
