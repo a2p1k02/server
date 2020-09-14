@@ -7,7 +7,9 @@ use std::thread;
 use std::time::Duration;
 
 fn main() {
-    let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
+    let addr = String::from("Enter your address here");
+    
+    let listener = TcpListener::bind(&addr).unwrap();
 
     let pool = ThreadPool::new(4);
 
